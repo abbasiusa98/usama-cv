@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+body{
+	font-family: 'Oxygen', sans-serif;
+	
+}
+
+a{
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover{
+	color: red;
+}
+
+ul {
+	/*list-style-type: square;*/
+	list-style-image: url("bullet-symbol.png");
+}
+
+.container{
+	width: 1000px;
+	margin: 10px auto;
+	padding: 20px;
+	border: 12px solid;
+	border-radius: 10px;
+	border-color: lightgray;
+	display: flex;
+	flex-direction: column;
+	background-color: #fafafa;
+}
+
+.section{
+	border-bottom: 1px solid lightgray;
+    padding: 10px 0 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section:first-child{
+	padding: auto 110px;
+}
+
+.section:last-child{
+	border: none
+}
+
+.personal-section{
+	width: 	600px;
+	margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.personal-sub-section{
+	display: flex;
+	flex-direction: column;
+}
+
+.personal-img{
+	margin-left: auto;
+}
+
+.personal-img img{
+	height: 180px;
+	border: 3px solid lightgray;
+	border-radius: 10px;
+}
+
+.sub-section{
+	width: 80%;
+	margin-left: auto;
+	margin-top: 15px;
+}
+
+.body-text{
+	font-size: 18px;
+    line-height: 26px;
+}
+
+.heading-text{
+	margin: 0;
+	font size: 30px;
+	font-weight: bold;
+}
+
+.main-heading-text{
+	margin-bottom: 10px;
+	font-size: 	38px;
+	font-weight: normal	;
+	color: #444;
+}
+
+.table-column-2{
+	width: 100px;
+	vertical-align: top;
+}
+
+.margin-util{
+	margin-left: 10px;
+}
